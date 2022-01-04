@@ -197,6 +197,9 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8)
+    watir (6.19.1)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (>= 3.142.7)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -237,6 +240,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
+  watir (~> 6.19, >= 6.19.1)
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
